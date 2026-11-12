@@ -2,9 +2,15 @@
 
 原始 MoonTV / LunaTV 配置保持不变；以下 TVBox / 影视仓 版本为独立文件，可按需导入。配置仅整理原仓库公开列出的接口，接口可用性及客户端兼容性请自行验证。
 
-## TVBox / 影视仓 配置文件
+## TVBox / 影视仓 多仓入口
 
-| 文件 | 用途 | Raw 地址 |
+可先尝试导入统一多仓入口，客户端会从中列出不同分类仓库：
+
+`https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox-multi.json`
+
+多仓入口使用 `urls` 列出各配置地址。不同 TVBox / 影视仓 分支对多仓入口的支持可能不同；如果客户端无法识别，请改为直接导入下方对应配置。
+
+| 配置 | 用途 | Raw 地址 |
 | --- | --- | --- |
 | `tvbox.json` | 综合点播及直播 | https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox.json |
 | `tvbox-config.json` | `config.json` 的非成人点播源 | https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox-config.json |
@@ -14,8 +20,6 @@
 | `tvbox-anime.json` | 动漫源 | https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox-anime.json |
 | `tvbox-live.json` | 直播 M3U 源 | https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox-live.json |
 | `tvbox-adults.json` | 成人分类源（請自行確認年齡及當地法規） | https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox-adults.json |
-
-TVBox / 影视仓 客户端对配置字段的支持可能不同。非 Apple CMS 接口（例如特殊 JSON API）或个别客户端不支持的项目，可能无法正常搜索或播放。分类文件中的自定义分类条件无法在通用 `sites` 配置中一一映射。
 
 ## MoonTV / LunaTV 原始配置
 

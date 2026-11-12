@@ -1,0 +1,32 @@
+{
+  "urls": [
+    {
+      "name": "综合影视仓",
+      "url": "https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox.json"
+    },
+    {
+      "name": "综合点播仓",
+      "url": "https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox-films.json"
+    },
+    {
+      "name": "电影仓",
+      "url": "https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox-movie.json"
+    },
+    {
+      "name": "剧集仓",
+      "url": "https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox-tv.json"
+    },
+    {
+      "name": "动漫仓",
+      "url": "https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox-anime.json"
+    },
+    {
+      "name": "直播仓",
+      "url": "https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox-live.json"
+    },
+    {
+      "name": "成人仓（仅限成年人）",
+      "url": "https://raw.githubusercontent.com/yanlei183/moontv-source/feature/tvbox-yingshicang/tvbox-adults.json"
+    }
+  ]
+}
